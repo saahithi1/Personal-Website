@@ -57,7 +57,7 @@ body {
 
 .about{
 	width: 100%;
-	height:955px;
+	height:800px;
 	position: relative;
 	 -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
 	  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
@@ -94,6 +94,7 @@ body {
 	background-color: #e6f0fb;
 	width: 100%;
 	height: 1500px;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .projects_title{
@@ -103,35 +104,48 @@ body {
 	font-size: 35px;	
 }
 
-.box4, .box5, .box6{
+.boxes{
 	position: absolute;
-	left: 530px;
-	height: 300px;
+	top: 200px;
+}
+
+.box4, .box5, .box6{
+	margin: 0 auto;
+	height: 200px;
 	width: 25%;
 	background-color: rgba(255, 255, 255, 0.55);
 	text-align: center;
-}
-
-.box4{
-	top: 250px;
-}
-
-.box5{
-	top: 650px;
-}
-
-.box6{
-	top: 1050px;
+	margin-top: 40px;
 }
 
 .box4 h2, .box5 h2, .box6 h2{
-	position: absolute;
-	top: 95px;
-	left: 100px;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 33px;
+	margin: 0;
+	line-height: 200px;
 }
 
+.description1, .description3{
+	position: absolute;
+	left: 50px;
+	height: 150px;
+	width: 25%;
+	margin: 20;
+	font-size: 20px;
+	align-content: left;
+}
+
+.node_picture img{
+	height: 300px;
+	width: 25%;
+	align-content: right;
+}
+
+.cell_picture img{
+	height: 300px;
+	width: 25%;
+	align-content: right;
+}
 
 .experience{
 	width: 100%;
@@ -215,11 +229,11 @@ input:focus, textarea:focus {
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;	
 	font-family: 'Open Sans Condensed', sans-serif;	
+	cursor: pointer;
 }
 .submit:hover {
 	font-family: 'Open Sans Condensed', sans-serif;
-	background-color: white;
-	cursor: pointer;
+	background-color: #e6f0fb;
 
 }
 
