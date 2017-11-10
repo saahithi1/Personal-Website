@@ -36,15 +36,15 @@ body {
 }
 
 .box1{
-	left: 40px;
+	left: 5%;
 }
 
 .box2{
-	left: 540px;
+	left: 37.5%;
 }
 
 .box3{
-	right: 40px;
+	right: 5%;
 }
 
 .box1 h2, .box2 h2, .box3 h2{
@@ -59,14 +59,12 @@ body {
 	width: 100%;
 	height:800px;
 	position: relative;
-	 -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
-	  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
 }
 
 .about_title{
 	position: absolute;
-	top: 50px;
-	left: 590px;
+	top: 40px;
+	left: 43%;
 	font-size: 35px;
 }
 
@@ -74,8 +72,8 @@ body {
 	height: 300px;
 	width: 400px;
 	position: absolute;
-	top: 250px;
-	left: 200px;
+	top: 25%;
+	left: 15%;
 	border-radius: 100%;
 }
 
@@ -83,61 +81,97 @@ body {
 	height: 300px; 
 	width: 400px;
 	position: absolute;
-	top: 250px;
-	right: 200px;
+	top: 30%;
+	right: 15%;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 25px;
+}
+
+.color{
+	color: #4AB2BE;
 }
 
 .projects{
 	position: relative;
 	background-color: #e6f0fb;
 	width: 100%;
-	height: 1500px;
+	height: 1000px;
 	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .projects_title{
 	position: absolute;
 	top: 50px;
-	left: 590px;
+	left: 43%;
 	font-size: 35px;	
 }
 
-.boxes{
+.box4, .box5, .box6{
+	height: 800px;
+	width: 25%;
 	position: absolute;
-	top: 200px;
+	top: 250px;
 }
 
-.box4, .box5, .box6{
+.box4{
+	position: absolute;
+	left: 5%;
+	background-color: #2C365E;
+}
+
+.box5{
+	position: absolute;
+	right: 37%;
+	background-color: #4B8F8C;
+}
+
+.box6{
+	position: absolute;
+	right: 5%;
+	background-color: #2C365E;
+}
+
+.title4, .title5, .title6{
 	margin: 0 auto;
 	height: 200px;
-	width: 25%;
+	width: 100%;
 	background-color: rgba(255, 255, 255, 0.55);
 	text-align: center;
-	margin-top: 40px;
 }
 
-.box4 h2, .box5 h2, .box6 h2{
+.title4 h2, .title5 h2, .title6 h2{
+	position: absolute;
+	top: 0%;
+	margin: 0 auto;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 33px;
-	margin: 0;
-	line-height: 200px;
+	line-height: 200px;	
 }
 
-.description1, .description3{
+.title4 h2, .title5 h2 {
+	left: 28%;
+}
+
+.title6 h2{
+	left: 35%;
+}
+
+.description4, .description5, .description6{
 	position: absolute;
-	left: 50px;
-	height: 150px;
-	width: 25%;
+	top: 30%;
+	left: 7%;
+	right: 8%;
+	height: 200px;
+	width: 100%;
 	margin: 20;
 	font-size: 20px;
 	align-content: left;
+	color: white;
 }
 
 .node_picture img{
-	height: 300px;
-	width: 25%;
+	height: 100px;
+	width: 100px;
 	align-content: right;
 }
 
@@ -156,14 +190,14 @@ body {
 
 .experience_title{
 	position: absolute;
-	top: 50px;
-	left: 540px;
+	top: 5%;
+	left: 40%;
 	font-size: 35px;
 }
 
 .contact{
 	width: 100%;
-	height: 650px;
+	height: 600px;
 	background-color: #e6f0fb;
 	position: relative;
 	font-family: 'Open Sans Condensed', sans-serif;
@@ -171,8 +205,8 @@ body {
 
 .contact_title{
 	position: absolute;
-	top: 50px;
-	left: 540px;
+	top: 5%;
+	left: 38%;
 	font-size: 35px;
 }
 
@@ -239,16 +273,17 @@ input:focus, textarea:focus {
 
 .social_media{
 	background-color: #e6f0fb;
-	position: relative;
 	padding: 20px;
 	font-size: 30px;
 	width: 100%;
-	height: 150px;
+	height: 110px;
 	text-align: center;
 	text-decoration: none;
 }
 
 .social_media img{
-	height: 100px;
-	width: 100px;
+	position: relative;
+	left: -2%;
+	height: 90px;
+	width: 90px;
 }
